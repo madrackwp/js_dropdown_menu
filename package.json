@@ -1,0 +1,26 @@
+{
+  "name": "create_dropdown_menu",
+  "version": "1.0.0",
+  "description": "Create an animated dropdown menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "css/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madrackwp/js_dropdown_menu.git"
+  },
+  "keywords": [
+    "dropdown",
+    "menu"
+  ],
+  "author": "madrackwp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madrackwp/js_dropdown_menu/issues"
+  },
+  "homepage": "https://github.com/madrackwp/js_dropdown_menu#readme"
+}

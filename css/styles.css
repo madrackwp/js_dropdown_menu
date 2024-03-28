@@ -1,0 +1,31 @@
+.menu-master button {
+  background-color: #efbc9b;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin: 0px 5px 0px 0px;
+}
+
+.button-list {
+  display: flex;
+  flex-direction: column;
+  transition: transform 300ms ease-in-out, opacity 100ms ease-in-out; /* padding: 10px; */
+  background-color: #efbc9b;
+}
+
+.button-list.hidden {
+  transform: translate(0px, -300px);
+  opacity: 0;
+}
+
+.button-list.hidden button {
+  /* background-color: orange; */
+}
+
+.button-list button {
+  background-color: #efbc9b;
+  border: none;
+  margin: 3px 0px;
+  padding: 10px;
+  cursor: pointer;
+}
